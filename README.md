@@ -44,6 +44,7 @@ Ex: MarsPhotosRepository
 - Test coroutines
 - ViewModel test
 - Test dispatcher
+- Coil library to load and display an image from a web URL
 
 ##
 ### View
