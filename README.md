@@ -42,6 +42,8 @@ Ex: MarsPhotosRepository
   
 - Fake data and dependencies for tests
 - Test coroutines
+- ViewModel test
+- Test dispatcher
 
 ##
 ### View
