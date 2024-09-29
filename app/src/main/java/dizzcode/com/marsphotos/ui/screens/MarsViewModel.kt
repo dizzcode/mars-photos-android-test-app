@@ -5,6 +5,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import dizzcode.com.marsphotos.network.MarsApi
 import dizzcode.com.marsphotos.network.MarsApiService
 import kotlinx.coroutines.launch
 import java.io.IOException
@@ -38,8 +39,10 @@ class MarsViewModel : ViewModel() {
     fun getMarsPhotos() {
         viewModelScope.launch {
             try{
-                val listResult = MarsApiService.MarsApi.retrofitService.getPhotos()
-                marsUiState = MarsUiState.Success(listResult)
+                val listResult = MarsApi.retrofitService.getPhotos()
+                marsUiState = MarsUiState.Success(
+                    "Success: ${listResult.size} Mars photos retrieved"
+                )
             }
             catch (e: IOException){
                 marsUiState = MarsUiState.Error
