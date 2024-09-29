@@ -2,7 +2,7 @@
 
 ### What's inside >
 
-- Rest/HTTP calls
+- Web services and Retrofit
 
 ##
 ### View
