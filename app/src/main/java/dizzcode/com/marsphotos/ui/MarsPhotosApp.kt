@@ -15,12 +15,14 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.viewmodel.compose.viewModel
 import dizzcode.com.marsphotos.R
 import dizzcode.com.marsphotos.ui.screens.HomeScreen
 import dizzcode.com.marsphotos.ui.screens.MarsViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
+@Preview(showSystemUi = true)
 @Composable
 fun MarsPhotosApp() {
     val scrollBehavior = TopAppBarDefaults.enterAlwaysScrollBehavior()
