@@ -45,7 +45,8 @@ fun HomeScreen(
 
         is MarsUiState.Success -> PhotosGridScreen(
             photos = marsUiState.photos,
-            modifier = modifier
+            contentPadding =contentPadding,
+            modifier = modifier,
         )
 
         is MarsUiState.Error -> ErrorScreen(

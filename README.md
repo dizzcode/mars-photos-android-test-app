@@ -55,9 +55,28 @@ Ex: MarsPhotosRepository
 ### View
 ##
 
+### Main Screen
+
 <img
 src="https://github.com/dizzcode/mars-photos-android-test-app/blob/main/screenshots/img.png"
 width="320"
 height="680"
 />
 
+##
+### Retry Screen
+
+<img
+src="https://github.com/dizzcode/mars-photos-android-test-app/blob/main/screenshots/retry_screen.png"
+width="320"
+height="680"
+/>
+
+##
+### When Images fail to load
+
+<img
+src="https://github.com/dizzcode/mars-photos-android-test-app/blob/main/screenshots/image_fail_to_load.png"
+width="320"
+height="680"
+/>

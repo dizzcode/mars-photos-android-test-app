@@ -30,7 +30,7 @@ fun MarsPhotosApp() {
     Scaffold(
         modifier = Modifier.nestedScroll(scrollBehavior.nestedScrollConnection),
         topBar = { MarsTopAppBar(scrollBehavior = scrollBehavior) }
-    ) {
+    ) { innerPadding ->
         Surface(
             modifier = Modifier.fillMaxSize().statusBarsPadding()
         ) {
@@ -40,7 +40,7 @@ fun MarsPhotosApp() {
             HomeScreen(
                 marsUiState = marsViewModel.marsUiState,
                 retryAction = marsViewModel::getMarsPhotos,
-                contentPadding = it,
+                contentPadding = innerPadding,
             )
         }
     }
