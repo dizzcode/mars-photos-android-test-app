@@ -46,6 +46,11 @@ Ex: MarsPhotosRepository
 - Test dispatcher
 - Coil library to load and display an image from a web URL
 
+- Lazy grids  
+  The LazyVerticalGrid and LazyHorizontalGrid composables provide support to display items in a grid.
+
+- Mock Data
+
 ##
 ### View
 ##

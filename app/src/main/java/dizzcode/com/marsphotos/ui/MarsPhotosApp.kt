@@ -3,6 +3,7 @@
 package dizzcode.com.marsphotos.ui
 
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
@@ -31,13 +32,14 @@ fun MarsPhotosApp() {
         topBar = { MarsTopAppBar(scrollBehavior = scrollBehavior) }
     ) {
         Surface(
-            modifier = Modifier.fillMaxSize()
+            modifier = Modifier.fillMaxSize().statusBarsPadding()
         ) {
             val marsViewModel: MarsViewModel =
                 viewModel(factory = MarsViewModel.Factory)
 
             HomeScreen(
                 marsUiState = marsViewModel.marsUiState,
+                retryAction = marsViewModel::getMarsPhotos,
                 contentPadding = it,
             )
         }

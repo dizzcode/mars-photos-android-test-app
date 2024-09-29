@@ -20,7 +20,7 @@ import java.io.IOException
  * A sealed interface makes it easy to manage state by limiting the possible values.
  */
 sealed interface MarsUiState {
-    data class Success(val photos: MarsPhoto) : MarsUiState
+    data class Success(val photos: List<MarsPhoto>) : MarsUiState
     object Error : MarsUiState
     object Loading : MarsUiState
 }
@@ -52,9 +52,9 @@ class MarsViewModel(
     fun getMarsPhotos() {
         viewModelScope.launch {
             try{
-                val result  = marsPhotosRepository.getMarsPhotos()[0]
+                val result  = marsPhotosRepository.getMarsPhotos()
                 marsUiState = MarsUiState.Success(
-                    marsPhotosRepository.getMarsPhotos()[0]
+                    result
                 )
             }
             catch (e: IOException){
