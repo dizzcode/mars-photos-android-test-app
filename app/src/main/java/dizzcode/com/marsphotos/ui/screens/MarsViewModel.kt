@@ -11,6 +11,7 @@ import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
 import dizzcode.com.marsphotos.MarsPhotosApplication
 import dizzcode.com.marsphotos.data.MarsPhotosRepository
+import dizzcode.com.marsphotos.model.MarsPhoto
 import kotlinx.coroutines.launch
 import java.io.IOException
 
@@ -19,7 +20,7 @@ import java.io.IOException
  * A sealed interface makes it easy to manage state by limiting the possible values.
  */
 sealed interface MarsUiState {
-    data class Success(val photos: String) : MarsUiState
+    data class Success(val photos: MarsPhoto) : MarsUiState
     object Error : MarsUiState
     object Loading : MarsUiState
 }
@@ -51,9 +52,9 @@ class MarsViewModel(
     fun getMarsPhotos() {
         viewModelScope.launch {
             try{
-                val listResult = marsPhotosRepository.getMarsPhotos()
+                val result  = marsPhotosRepository.getMarsPhotos()[0]
                 marsUiState = MarsUiState.Success(
-                    "Success: ${listResult.size} Mars photos retrieved"
+                    marsPhotosRepository.getMarsPhotos()[0]
                 )
             }
             catch (e: IOException){
