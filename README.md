@@ -44,10 +44,18 @@ Ex: MarsPhotosRepository
 - Test coroutines
 - ViewModel test
 - Test dispatcher
+- Coil library to load and display an image from a web URL
+
+- Lazy grids  
+  The LazyVerticalGrid and LazyHorizontalGrid composables provide support to display items in a grid.
+
+- Mock Data
 
 ##
 ### View
 ##
+
+### Main Screen
 
 <img
 src="https://github.com/dizzcode/mars-photos-android-test-app/blob/main/screenshots/img.png"
@@ -55,3 +63,20 @@ width="320"
 height="680"
 />
 
+##
+### Retry Screen
+
+<img
+src="https://github.com/dizzcode/mars-photos-android-test-app/blob/main/screenshots/retry_screen.png"
+width="320"
+height="680"
+/>
+
+##
+### When Images fail to load
+
+<img
+src="https://github.com/dizzcode/mars-photos-android-test-app/blob/main/screenshots/image_fail_to_load.png"
+width="320"
+height="680"
+/>
