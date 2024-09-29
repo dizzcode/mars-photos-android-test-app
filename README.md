@@ -38,6 +38,10 @@ Ex: MarsPhotosRepository
 -- Helps with the reusability of code. Code is not dependent on a specific object, which allows for greater flexibility.
 -- Makes refactoring easier. Code is loosely coupled, so refactoring one section of code does not impact another section of code.
 -- Helps with testing. Test objects can be passed in during testing.
+  
+  
+- Fake data and dependencies for tests
+- Test coroutines
 
 ##
 ### View
