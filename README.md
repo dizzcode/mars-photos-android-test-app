@@ -3,6 +3,9 @@
 ### What's inside >
 
 - Web services and Retrofit
+- Internet permission and Exception Handling
+- Sealed interface
+- Parse the JSON response with kotlinx.serialization
 
 ##
 ### View
