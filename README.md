@@ -17,7 +17,7 @@ Mars Photos app is a demo app that shows actual images of Mars' surface. These i
 
 <p align="center">
 <img 
-  src="https://github.com/dizzcode/mars-photos-android-test-app/blob/main/screenshots/img.png" 
+  src="https://github.com/dizzcode/mars-photos-android-test-app/blob/main/screenshots/img_main.png" 
    width="360" height="720" 
   />
 </p>
