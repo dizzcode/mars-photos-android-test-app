@@ -60,6 +60,21 @@ Mars Photos app is a demo app that shows actual images of Mars' surface. These i
 
 <br>
 
+<p align="center">
+<img 
+  src="https://github.com/dizzcode/mars-photos-android-test-app/blob/main/screenshots/img.png" 
+   width="180" height="360" 
+  />
+<img 
+  src="https://github.com/dizzcode/mars-photos-android-test-app/blob/main/screenshots/retry_screen.png" 
+  width="180" height="360" 
+  />
+<img 
+  src="https://github.com/dizzcode/mars-photos-android-test-app/blob/main/screenshots/image_fail_to_load.png" 
+   width="180" height="360" 
+  />
+</p>
+
 ## 2. What's inside >
 
 1. Web services and Retrofit &nbsp;|&nbsp;  [ More-> ](#web-services-and-retrofit)
