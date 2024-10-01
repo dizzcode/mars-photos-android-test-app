@@ -20,7 +20,7 @@ Mars Photos app is a demo app that shows actual images of Mars' surface. These i
 <table>
 <tr>
   
-<td width="33%">
+<td width="25%">
 
   <p align="center"> Main Screen  </p>
    <hr>
@@ -32,7 +32,7 @@ Mars Photos app is a demo app that shows actual images of Mars' surface. These i
 
 </td>
 
-<td width="33%">
+<td width="25%">
   <p align="center"> Retry Screen  </p>
   <hr>
   <img 
@@ -42,7 +42,18 @@ Mars Photos app is a demo app that shows actual images of Mars' surface. These i
   
 </td>
 
-<td width="33%">
+<td width="25%">
+
+  <p align="center"> Error Image Screen  </p>
+   <hr>
+  <img 
+  src="https://github.com/dizzcode/mars-photos-android-test-app/blob/main/screenshots/image_fail_to_load.png" 
+   width="180" height="360" 
+  />
+  
+</td>
+
+<td width="25%">
 
   <p align="center"> Error Image Screen  </p>
    <hr>
