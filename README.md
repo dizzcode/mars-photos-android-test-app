@@ -15,8 +15,7 @@ Mars Photos app is a demo app that shows actual images of Mars' surface. These i
 
 ## 1. Screens
 
-<div align="center">
-
+<div align="center" class="table-wrapper" markdown="block">
   
 <table>
 <tr>
@@ -59,7 +58,7 @@ Mars Photos app is a demo app that shows actual images of Mars' surface. These i
 
 </div>
 
-
+<br>
 
 ## 2. What's inside >
 
@@ -126,6 +125,8 @@ Ex: MarsPhotosRepository
   - Helps with the reusability of code. Code is not dependent on a specific object, which allows for greater flexibility.
   - Makes refactoring easier. Code is loosely coupled, so refactoring one section of code does not impact another section of code.
   - Helps with testing. Test objects can be passed in during testing.
+  
+****
 
 ## Lazy grids  
   The LazyVerticalGrid and LazyHorizontalGrid composables provide support to display items in a grid.
