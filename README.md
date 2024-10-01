@@ -20,7 +20,7 @@ Mars Photos app is a demo app that shows actual images of Mars' surface. These i
 <table>
 <tr>
   
-<td>
+<td width="33%">
 
   <p align="center"> Main Screen  </p>
    <hr>
@@ -32,7 +32,7 @@ Mars Photos app is a demo app that shows actual images of Mars' surface. These i
 
 </td>
 
-<td>
+<td width="33%">
   <p align="center"> Retry Screen  </p>
   <hr>
   <img 
@@ -42,7 +42,7 @@ Mars Photos app is a demo app that shows actual images of Mars' surface. These i
   
 </td>
 
-<td>
+<td width="33%">
 
   <p align="center"> Error Image Screen  </p>
    <hr>
