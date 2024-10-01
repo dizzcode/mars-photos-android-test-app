@@ -13,76 +13,12 @@ Mars Photos app is a demo app that shows actual images of Mars' surface. These i
 
 <br>
 
-## 1. Screens
-
-<div align="center" class="table-wrapper" markdown="block">
-  
-<table>
-<tr>
-  
-<td width="25%">
-
-  <p align="center"> Main Screen  </p>
-   <hr>
-  <img 
-  src="https://github.com/dizzcode/mars-photos-android-test-app/blob/main/screenshots/img.png" 
-   width="180" height="360" 
-  />
-
-
-</td>
-
-<td width="25%">
-  <p align="center"> Retry Screen  </p>
-  <hr>
-  <img 
-  src="https://github.com/dizzcode/mars-photos-android-test-app/blob/main/screenshots/retry_screen.png" 
-  width="180" height="360" 
-  />
-  
-</td>
-
-<td width="25%">
-
-  <p align="center"> Error Image Screen  </p>
-   <hr>
-  <img 
-  src="https://github.com/dizzcode/mars-photos-android-test-app/blob/main/screenshots/image_fail_to_load.png" 
-   width="180" height="360" 
-  />
-  
-</td>
-
-<td width="25%">
-
-  <p align="center"> Error Image Screen  </p>
-   <hr>
-  <img 
-  src="https://github.com/dizzcode/mars-photos-android-test-app/blob/main/screenshots/image_fail_to_load.png" 
-   width="180" height="360" 
-  />
-  
-</td>
-
-</tr>
-</table>
-
-</div>
-
-<br>
+## 1. Main Screen
 
 <p align="center">
 <img 
   src="https://github.com/dizzcode/mars-photos-android-test-app/blob/main/screenshots/img.png" 
-   width="180" height="360" 
-  />
-<img 
-  src="https://github.com/dizzcode/mars-photos-android-test-app/blob/main/screenshots/retry_screen.png" 
-  width="180" height="360" 
-  />
-<img 
-  src="https://github.com/dizzcode/mars-photos-android-test-app/blob/main/screenshots/image_fail_to_load.png" 
-   width="180" height="360" 
+   width="360" height="720" 
   />
 </p>
 
@@ -156,3 +92,73 @@ Ex: MarsPhotosRepository
 
 ## Lazy grids  
   The LazyVerticalGrid and LazyHorizontalGrid composables provide support to display items in a grid.
+
+<br>
+
+****
+****
+<br>
+
+# > All Screens
+
+<br>
+
+<div align="center" class="table-wrapper" markdown="block">
+  
+<table>
+<tr>
+  
+<td width="33%">
+
+  <p align="center"> Main Screen  </p>
+   <hr>
+  <img 
+  src="https://github.com/dizzcode/mars-photos-android-test-app/blob/main/screenshots/img.png" 
+   width="180" height="360" 
+  />
+
+
+</td>
+
+<td width="33%">
+  <p align="center"> Retry Screen  </p>
+  <hr>
+  <img 
+  src="https://github.com/dizzcode/mars-photos-android-test-app/blob/main/screenshots/retry_screen.png" 
+  width="180" height="360" 
+  />
+  
+</td>
+
+<td width="33%">
+
+  <p align="center"> Error Image Screen  </p>
+   <hr>
+  <img 
+  src="https://github.com/dizzcode/mars-photos-android-test-app/blob/main/screenshots/image_fail_to_load.png" 
+   width="180" height="360" 
+  />
+  
+</td>
+
+</tr>
+</table>
+
+</div>
+
+<br>
+
+<p align="center">
+<img 
+  src="https://github.com/dizzcode/mars-photos-android-test-app/blob/main/screenshots/img.png" 
+   width="180" height="360" 
+  />
+<img 
+  src="https://github.com/dizzcode/mars-photos-android-test-app/blob/main/screenshots/retry_screen.png" 
+  width="180" height="360" 
+  />
+<img 
+  src="https://github.com/dizzcode/mars-photos-android-test-app/blob/main/screenshots/image_fail_to_load.png" 
+   width="180" height="360" 
+  />
+</p>
