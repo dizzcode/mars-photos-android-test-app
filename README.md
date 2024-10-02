@@ -30,29 +30,98 @@ Mars Photos app is a demo app that shows actual images of Mars' surface. These i
   />
 </p>
 
-## 2. What's inside >
+## ɪɪ ⁃ ᴡʜᴀᴛ ᴜꜱᴇʀꜱ ᴄᴀɴ ᴇxᴘᴇᴄᴛ
 
-1. Web services and Retrofit &nbsp;|&nbsp;  [ More-> ](#web-services-and-retrofit)
-2. Different layers
-    - Data Layer &nbsp;|&nbsp; [ More-> ](#data-layer)
-    - Repository &nbsp;|&nbsp; [ More-> ](#repository)
-      
-3. Dependency injection (DI) &nbsp;|&nbsp; [ More-> ](#dependency-injection)  
+### ⭓ Features
 
-4. Fake data and dependencies for tests
-5. Test coroutines
-6. ViewModel test
-7. Test dispatcher
-8. Coil library to load and display an image from a web URL
-9. Lazy grids  &nbsp;|&nbsp; [ More-> ](#lazy-grids)
-10. Mock Data
+  
+  1. **View Real Mars Photos:**
+       - Users can browse through authentic images of Mars' surface taken by NASA’s rovers.
+         
+  2. **Seamless Image Loading:**
+       - The app provides a smooth experience with quick image loading via URL.
+        
+  3. **Simple and Intuitive UI:**
+       - Easy navigation and clean layout for viewing images of Mars.
 
-****
-****
-<br>
+##
+### ⭓ Requirements
+  - Android 7.0 and Above
+  - Min SDK version 24
 
-# > Expand points
-****
+
+##
+### ⭓ Permissions
+  - Internet
+
+<hr>
+
+## ɪɪɪ ⁃ ᴠɪꜱᴜᴀʟ ᴛᴏᴜʀ ᴏꜰ ᴛʜᴇ ᴀᴘᴘ: ꜱᴄʀᴇᴇɴꜱ
+
+<p align="center">
+<img 
+  src="https://github.com/dizzcode/mars-photos-android-test-app/blob/main/screenshots/img.png" 
+   width="200" height="460" 
+  />
+<img 
+  src="https://github.com/dizzcode/mars-photos-android-test-app/blob/main/screenshots/retry_screen.png" 
+  width="200" height="460" 
+  />
+<img 
+  src="https://github.com/dizzcode/mars-photos-android-test-app/blob/main/screenshots/image_fail_to_load.png" 
+   width="200" height="460" 
+  />
+</p>
+
+
+#
+<div align="center">
+  
+  <kbd>[&nbsp;**⮝&nbsp;   𝗕𝗔𝗖𝗞 𝗧𝗢 𝗧𝗢𝗣** &nbsp;&nbsp;&nbsp;](#ɪ----ᴘʀᴏᴊᴇᴄᴛ-ɪɴꜰᴏ) </kbd>
+</div>
+<hr>
+
+____
+## ɪᴠ ⁃ ʙᴇʜɪɴᴅ ᴛʜᴇ ᴄᴏᴅᴇ: ᴅᴇᴠ ꜰᴇᴀᴛᴜʀᴇꜱ
+
+  1. Web services and Retrofit &nbsp;|&nbsp;  [ More-> ](#web-services-and-retrofit)
+  2. Different layers
+      - Data Layer &nbsp;|&nbsp; [ More-> ](#data-layer)
+      - Repository &nbsp;|&nbsp; [ More-> ](#repository)
+        
+  3. Dependency injection (DI) &nbsp;|&nbsp; [ More-> ](#dependency-injection)  
+  
+  4. Fake data and dependencies for tests
+  5. Test coroutines
+  6. ViewModel test
+  7. Test dispatcher
+  8. Coil library to load and display an image from a web URL
+  9. Lazy grids  &nbsp;|&nbsp; [ More-> ](#lazy-grids)
+  10. Mock Data
+
+#### App Dependencies/Libraries Overview
+
+____
+## ᴠ ⁃ ᴘʀᴏᴊᴇᴄᴛ ʙʀᴀɴᴄʜᴇꜱ
+
+- [master](https://github.com/dizzcode/mars-photos-android-test-app/tree/master) - master branch will contain the production code.
+- [dev](https://github.com/dizzcode/mars-photos-android-test-app/tree/dev) - development branch will contain the on-going app feature developement and bug fixes
+
+<br>  
+
+
+#
+<div align="center">
+  
+  <kbd>[&nbsp;**⮝&nbsp;   𝗕𝗔𝗖𝗞 𝗧𝗢 𝗧𝗢𝗣** &nbsp;&nbsp;&nbsp;](#ɪ----ᴘʀᴏᴊᴇᴄᴛ-ɪɴꜰᴏ) </kbd>
+</div>
+<hr>
+
+
+
+## ᴠɪ ⁃ ᴘʀᴏᴊᴇᴄᴛ ɴᴏᴛᴇꜱ
+
+____
 
 ## Web services and Retrofit
 - Internet permission and Exception Handling
@@ -107,66 +176,8 @@ Ex: MarsPhotosRepository
 ****
 <br>
 
-# > All Screens
+
 
 <br>
 
-<div align="center" class="table-wrapper" markdown="block">
-  
-<table>
-<tr>
-  
-<td width="33%">
 
-  <p align="center"> Main Screen  </p>
-   <hr>
-  <img 
-  src="https://github.com/dizzcode/mars-photos-android-test-app/blob/main/screenshots/img.png" 
-   width="180" height="360" 
-  />
-
-
-</td>
-
-<td width="33%">
-  <p align="center"> Retry Screen  </p>
-  <hr>
-  <img 
-  src="https://github.com/dizzcode/mars-photos-android-test-app/blob/main/screenshots/retry_screen.png" 
-  width="180" height="360" 
-  />
-  
-</td>
-
-<td width="33%">
-
-  <p align="center"> Error Image Screen  </p>
-   <hr>
-  <img 
-  src="https://github.com/dizzcode/mars-photos-android-test-app/blob/main/screenshots/image_fail_to_load.png" 
-   width="180" height="360" 
-  />
-  
-</td>
-
-</tr>
-</table>
-
-</div>
-
-<br>
-
-<p align="center">
-<img 
-  src="https://github.com/dizzcode/mars-photos-android-test-app/blob/main/screenshots/img.png" 
-   width="180" height="360" 
-  />
-<img 
-  src="https://github.com/dizzcode/mars-photos-android-test-app/blob/main/screenshots/retry_screen.png" 
-  width="180" height="360" 
-  />
-<img 
-  src="https://github.com/dizzcode/mars-photos-android-test-app/blob/main/screenshots/image_fail_to_load.png" 
-   width="180" height="360" 
-  />
-</p>
