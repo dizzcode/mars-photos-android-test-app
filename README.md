@@ -84,7 +84,7 @@ Mars Photos app is a demo app that shows actual images of Mars' surface. These i
 
   <br>
   
-  <kbd>[&nbsp;**⮝&nbsp;   𝗕𝗔𝗖𝗞 𝗧𝗢 𝗧𝗢𝗣** &nbsp;&nbsp;&nbsp;](#ɪ----ᴘʀᴏᴊᴇᴄᴛ-ɪɴꜰᴏ) </kbd>
+  <kbd>[&nbsp; ⮝ &nbsp;  BACK TO TOP  &nbsp;&nbsp;&nbsp;](#ɪ----ᴘʀᴏᴊᴇᴄᴛ-ɪɴꜰᴏ) </kbd>
 </div>
 
 #
@@ -149,7 +149,7 @@ ____
 #
 <div align="center">
 
-  <kbd>[&nbsp;**⮝&nbsp;   𝗕𝗔𝗖𝗞 𝗧𝗢 𝗧𝗢𝗣** &nbsp;&nbsp;&nbsp;](#ɪ----ᴘʀᴏᴊᴇᴄᴛ-ɪɴꜰᴏ) </kbd>
+  <kbd>[&nbsp; ⮝ &nbsp;  BACK TO TOP  &nbsp;&nbsp;&nbsp;](#ɪ----ᴘʀᴏᴊᴇᴄᴛ-ɪɴꜰᴏ) </kbd>
 </div>
 <hr>
 
