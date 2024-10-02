@@ -1,19 +1,22 @@
-<div align="center">
-  
-# Mars Photos - Android  - Test App
+<h1 align="center" > Mars Photos - Android  - Test App </h1>
 
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-[![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white)](#)
-
-</div>
+## ɪ  ⁃  ᴘʀᴏᴊᴇᴄᴛ ɪɴꜰᴏ
 
 Mars Photos app is a demo app that shows actual images of Mars' surface. These images are real-life photos from Mars captured by NASA's Mars rovers. The data is stored on a Web server as a REST web service.  
-- Platform : Android  
-- Langugae : Kotlin
 
 <br>
 
-## 1. Main Screen
+<div align="center">
+⁃ 🇹​🇪​🇨​🇭​🇳​🇴​🇱​🇴​🇬​🇮​🇪​🇸​ | 🇵​🇱​🇦​🇹​🇫​🇴​🇷​🇲​ ⁃
+<br>
+<br>
+  
+[![Platform](https://img.shields.io/badge/-Android%20|%20Platform-2E8B57?logo=android&logoColor=white&style=for-the-badge)](#)
+[![Language](https://img.shields.io/badge/-Kotlin%20|%20Language-4682B4?logo=kotlin&logoColor=white&style=for-the-badge)](#)
+
+</div>
+
+<br>
 
 <p align="center">
 <img 
