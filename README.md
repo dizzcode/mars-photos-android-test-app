@@ -76,13 +76,26 @@ Mars Photos app is a demo app that shows actual images of Mars' surface. These i
 
 #
 <div align="center">
+
+
+![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
+![ForTheBadge ANDROID](https://forthebadge.com/images/badges/built-for-android.svg)
+![ForTheBadge GIT](https://forthebadge.com/images/badges/uses-git.svg)
+
+  <br>
   
   <kbd>[&nbsp;**⮝&nbsp;   𝗕𝗔𝗖𝗞 𝗧𝗢 𝗧𝗢𝗣** &nbsp;&nbsp;&nbsp;](#ɪ----ᴘʀᴏᴊᴇᴄᴛ-ɪɴꜰᴏ) </kbd>
 </div>
-<hr>
 
-____
+#
+
+> [!NOTE]
+> *Dev Zone: The following sections are crafted specifically for use in development.*
+
+#
 ## ɪᴠ ⁃ ʙᴇʜɪɴᴅ ᴛʜᴇ ᴄᴏᴅᴇ: ᴅᴇᴠ ꜰᴇᴀᴛᴜʀᴇꜱ
+
+### ⭓ Features
 
   1. Web services and Retrofit &nbsp;|&nbsp;  [ More-> ](#web-services-and-retrofit)
   2. Different layers
@@ -99,7 +112,31 @@ ____
   9. Lazy grids  &nbsp;|&nbsp; [ More-> ](#lazy-grids)
   10. Mock Data
 
-#### App Dependencies/Libraries Overview
+
+#
+### ⭓ App Dependencies/Libraries Overview
+
+<br>
+
+* [Kotlin][0] : Kotlin is statically typed & first-class language for Android Development.
+* [Coroutines][1] : For Asynchronus or non-blocking operations.
+* [Flows][2] : Data Streaming API which is built on top of Coroutines.
+* [Jetpack Compose][3] : Toolkit for building native UI in a declarative way.
+* [Splash Screen API][4] : Launch app with animation of launcher icon.
+* [Retrofit][5] : Type-safe REST client for Android to consume RESTful web services.
+* [Dagger Hilt][6] : Dependency injection library for Android.
+* [Kotlin DSL][7] : For writing gradle script for Kotlin is more readable and offers better compile-time.
+
+[0]:  https://kotlinlang.org/
+[1]:  https://kotlinlang.org/docs/coroutines-overview.html
+[2]:  https://developer.android.com/kotlin/flow
+[3]:  https://developer.android.com/jetpack/compose
+[4]:  https://developer.android.com/develop/ui/views/launch/splash-screen
+[5]:  https://github.com/square/retrofit
+[6]:  https://dagger.dev/hilt/
+[7]:  https://docs.gradle.org/current/userguide/kotlin_dsl.html
+
+<br>
 
 ____
 ## ᴠ ⁃ ᴘʀᴏᴊᴇᴄᴛ ʙʀᴀɴᴄʜᴇꜱ
@@ -109,17 +146,16 @@ ____
 
 <br>  
 
-
 #
 <div align="center">
-  
+
   <kbd>[&nbsp;**⮝&nbsp;   𝗕𝗔𝗖𝗞 𝗧𝗢 𝗧𝗢𝗣** &nbsp;&nbsp;&nbsp;](#ɪ----ᴘʀᴏᴊᴇᴄᴛ-ɪɴꜰᴏ) </kbd>
 </div>
 <hr>
 
 
 
-## ᴠɪ ⁃ ᴘʀᴏᴊᴇᴄᴛ ɴᴏᴛᴇꜱ
+# ᴠɪ ⁃ ᴘʀᴏᴊᴇᴄᴛ ɴᴏᴛᴇꜱ
 
 ____
 
